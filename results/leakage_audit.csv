@@ -1,0 +1,9 @@
+feature_set,model,f1,pr_auc
+degree_graph,RandomForest,0.6484,0.6526
+degree_graph,HistGBDT,0.6519,0.7021
+graph_topology_TIMESPLIT,RandomForest,0.696,0.7679
+graph_topology_TIMESPLIT,HistGBDT,0.7002,0.7957
+transaction,RandomForest,0.814,0.9079
+transaction,HistGBDT,0.8551,0.9321
+transaction+topology_TIMESPLIT,RandomForest,0.8511,0.9431
+transaction+topology_TIMESPLIT,HistGBDT,0.8937,0.9607

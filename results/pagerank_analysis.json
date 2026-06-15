@@ -1,0 +1,18 @@
+{
+  "pagerank_fraud_median": 8.641200064345908e-06,
+  "pagerank_benign_median": 4.141619569364009e-06,
+  "pagerank_fraud_mean": 3.120621271291688e-05,
+  "pagerank_benign_mean": 3.667405578610391e-05,
+  "fraud_higher": true,
+  "mannwhitney_u": 8899136.0,
+  "mannwhitney_p": 2.8693032299471064e-151,
+  "spearman_pagerank_vs": {
+    "total_transactions": 0.33,
+    "total_ether_received": 0.186,
+    "total_ether_sent": 0.293,
+    "received_tnx": 0.342,
+    "sent_tnx": 0.348,
+    "g_total_degree": 0.343,
+    "g_in_degree": 0.359
+  }
+}

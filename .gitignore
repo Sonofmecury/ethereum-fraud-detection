@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+results/run.log
+# keep results CSVs + figures; ignore large raw data if you prefer:
+# data/transaction_dataset.csv

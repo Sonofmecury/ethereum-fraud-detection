@@ -1,0 +1,52 @@
+feature,feature_class,perm_importance
+g_pagerank,graph_topology,0.0342
+Time Diff between first and last (Mins),temporal,0.02609
+Unique Received From Addresses,degree_graph,0.022
+Avg min between received tnx,temporal,0.0154
+total ether balance,transaction,0.0093
+avg val received,transaction,0.00805
+ ERC20 max val rec,transaction,0.00788
+ ERC20 min val rec,transaction,0.00709
+min value received,transaction,0.00636
+total ether received,transaction,0.00504
+g_out_degree,graph_topology,0.00397
+g_kcore,graph_topology,0.00369
+ ERC20 total Ether received,transaction,0.00323
+Avg min between sent tnx,temporal,0.00313
+ ERC20 avg val rec,transaction,0.00277
+total transactions (including tnx to create contract,transaction,0.00275
+total Ether sent,transaction,0.00269
+Sent tnx,transaction,0.00267
+g_total_degree,graph_topology,0.00236
+min val sent,transaction,0.00234
+ ERC20 uniq rec contract addr,degree_graph,0.00204
+g_in_degree,graph_topology,0.002
+Received Tnx,transaction,0.0019
+max val sent,transaction,0.00144
+ Total ERC20 tnxs,transaction,0.00138
+g_clustering,graph_topology,0.00129
+max value received ,transaction,0.00127
+Number of Created Contracts,degree_graph,0.0012
+ ERC20 uniq rec addr,degree_graph,0.00119
+ ERC20 uniq rec token name,degree_graph,0.00086
+Unique Sent To Addresses,degree_graph,0.00085
+avg val sent,transaction,0.00078
+ ERC20 total ether sent,transaction,0.00058
+ ERC20 max val sent,transaction,0.00051
+ ERC20 uniq sent token name,degree_graph,0.00044
+ ERC20 avg val sent,transaction,0.0004
+ ERC20 uniq sent addr,degree_graph,0.00033
+ ERC20 min val sent,transaction,0.00024
+ ERC20 uniq sent addr.1,degree_graph,1e-05
+ ERC20 total Ether sent contract,transaction,1e-05
+ ERC20 avg time between contract tnx,temporal,0.0
+ ERC20 avg time between rec tnx,temporal,0.0
+ ERC20 avg time between rec 2 tnx,temporal,0.0
+ ERC20 min val sent contract,transaction,0.0
+ ERC20 max val sent contract,transaction,0.0
+ ERC20 avg val sent contract,transaction,0.0
+ ERC20 avg time between sent tnx,temporal,0.0
+min value sent to contract,transaction,0.0
+max val sent to contract,transaction,0.0
+avg value sent to contract,transaction,0.0
+total ether sent contracts,transaction,0.0

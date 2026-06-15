@@ -1,0 +1,11 @@
+feature_set,n_features,model,f1,pr_auc,roc_auc
+transaction,29,RandomForest,0.8097,0.9088,0.9685
+transaction,29,HistGBDT,0.8452,0.9321,0.9767
+transaction+degree_graph,38,RandomForest,0.8382,0.9326,0.9777
+transaction+degree_graph,38,HistGBDT,0.888,0.9557,0.9858
+transaction+temporal,36,RandomForest,0.8515,0.9447,0.9833
+transaction+temporal,36,HistGBDT,0.8874,0.9581,0.9872
+transaction+topology,35,RandomForest,0.8495,0.9451,0.9841
+transaction+topology,35,HistGBDT,0.9004,0.9627,0.9888
+all,51,RandomForest,0.8828,0.9679,0.9906
+all,51,HistGBDT,0.9246,0.9786,0.994

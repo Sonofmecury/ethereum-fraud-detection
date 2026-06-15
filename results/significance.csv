@@ -1,0 +1,5 @@
+comparison,mean_f1_a,mean_f1_b,f1_gain,t_stat,p_value,n_samples,significant_0.05
+graph_topology vs degree_graph,0.7244,0.6536,0.0708,9.267,2.38e-07,15,True
+transaction vs graph_topology,0.8067,0.7244,0.0823,16.925,1.02e-10,15,True
+all vs transaction,0.8815,0.8067,0.0749,19.556,1.46e-11,15,True
+transaction+topology vs transaction,0.8482,0.8067,0.0416,12.592,5.03e-09,15,True

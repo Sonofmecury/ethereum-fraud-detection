@@ -1,0 +1,13 @@
+{
+  "data_source": "real",
+  "n_rows_with_graph": 9307,
+  "fraud_rate": 0.177,
+  "cv_folds": 5,
+  "models": [
+    "LogReg",
+    "RandomForest",
+    "HistGBDT"
+  ],
+  "graph_features_note": "true topology from raw tx graph (242k nodes, 1.65M edges); betweenness omitted (O(VE))",
+  "significance_note": "paired t-test on RandomForest per-fold F1, n=5 folds (small-sample)"
+}
