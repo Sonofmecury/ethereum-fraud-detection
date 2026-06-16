@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Ethereum Fraud Detection — Which Feature Class Drives Detection?"
+abstract: >-
+  A feature-class comparison study measuring which signal — graph topology, transaction value/volume, or temporal pattern — drives machine-learning detection of fraudulent Ethereum accounts. Includes a time-respecting leakage audit rebuilding graph features from each account's earliest 70%% of transactions. Paper 2 of the Secure Systems in the Quantum Era portfolio.
+type: software
+authors:
+  - family-names: "Muhammad"
+    given-names: "Abdulrazaq Mukhtar"
+    # orcid: "https://orcid.org/YOUR-ORCID-HERE"  # add after registering at orcid.org
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.20703210
+    description: "Zenodo archive (code + paper)"
+repository-code: "https://github.com/Sonofmecury/ethereum-fraud-detection"
+keywords:
+  - ethereum
+  - fraud-detection
+  - graph-machine-learning
+  - feature-importance
+  - blockchain-security
+  - random-forest
+  - temporal-leakage
+  - applied-machine-learning
+license: MIT
+version: "1.0.0"
+date-released: "2026-06-17"
