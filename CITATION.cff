@@ -1,27 +1,30 @@
 cff-version: 1.2.0
-message: "If you use this work, please cite it as below."
-title: "Ethereum Fraud Detection — Which Feature Class Drives Detection?"
+message: "If you use this work or its results, please cite it as below."
+title: "What Signal Detects Ethereum Fraud? Degree Counts versus True Graph Topology, with Transaction and Temporal Behaviour"
 abstract: >-
-  A feature-class comparison study measuring which signal — graph topology, transaction value/volume, or temporal pattern — drives machine-learning detection of fraudulent Ethereum accounts. Includes a time-respecting leakage audit rebuilding graph features from each account's earliest 70%% of transactions. Paper 2 of the Secure Systems in the Quantum Era portfolio.
+  We benchmark four feature classes — degree counts, true graph topology
+  (PageRank, clustering coefficient), transaction amounts, and temporal
+  patterns — against a labelled set of 9,307 Ethereum accounts (17.7%
+  fraud). Using gradient-boosted trees with a PR-AUC of 0.979, we show
+  that true graph-topology features dominate, with PageRank as the single
+  most informative individual feature. All code, data pointers, and
+  benchmarks are released for reproduction.
 type: software
 authors:
   - family-names: "Muhammad"
     given-names: "Abdulrazaq Mukhtar"
-    # orcid: "https://orcid.org/YOUR-ORCID-HERE"  # add after registering at orcid.org
-identifiers:
-  - type: doi
-    value: 10.5281/zenodo.20703210
-    description: "Zenodo archive (code + paper)"
-repository-code: "https://github.com/Sonofmecury/ethereum-fraud-detection"
+    orcid: "https://orcid.org/0009-0002-2648-6283"
 keywords:
   - ethereum
-  - fraud-detection
-  - graph-machine-learning
-  - feature-importance
-  - blockchain-security
-  - random-forest
-  - temporal-leakage
-  - applied-machine-learning
+  - fraud detection
+  - graph machine learning
+  - PageRank
+  - gradient boosting
+  - blockchain
+  - feature importance
+  - reproducibility
 license: MIT
 version: "1.0.0"
-date-released: "2026-06-17"
+date-released: "2026-06-13"
+doi: "10.5281/zenodo.20703209"
+repository-code: "https://github.com/Sonofmecury/ethereum-fraud-detection"
